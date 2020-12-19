@@ -44,8 +44,10 @@ function portfolio(){
     'https://github.com/heyclore/htdocs/tree/master/flask',
     'http://heyclore-laravel.herokuapp.com',
     'https://github.com/heyclore/htdocs/tree/master/laravel',
+    'https://heyclore-expressjs.herokuapp.com',
+    'https://github.com/heyclore/htdocs/tree/master/expressjs',
     'https://github.com/heyclore/htdocs/tree/master/codeigniter',
-    'https://github.com/heyclore/htdocs/tree/master/expressjs']
+  ]
   if (document.querySelector('section > p').innerHTML == a){
     return;
   }else{
@@ -57,10 +59,11 @@ function portfolio(){
     fooBar('p', `# Laravel:`);
     fooBar('p', `Web: <a href="${a[3]}" target="_blank">${a[3]}</a>`);
     fooBar('p', `Source: <a href="${a[4]}" target="_blank">${a[4]}</a>`);
-    fooBar('p', `# CodeIgniter:`);
-    fooBar('p', `Source: <a href="${a[5]}" target="_blank">${a[5]}</a>`);
     fooBar('p', `# ExpressJs:`);
+    fooBar('p', `Web: <a href="${a[5]}" target="_blank">${a[5]}</a>`);
     fooBar('p', `Source: <a href="${a[6]}" target="_blank">${a[6]}</a>`);
+    fooBar('p', `# CodeIgniter:`);
+    fooBar('p', `Source: <a href="${a[7]}" target="_blank">${a[7]}</a>`);
   }
 }
 
