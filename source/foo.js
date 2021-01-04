@@ -62,7 +62,7 @@ function portfolio(){
     fooBar('p', `# ExpressJs:`);
     fooBar('p', `Web: <a href="${a[5]}" target="_blank">${a[5]}</a>`);
     fooBar('p', `Source: <a href="${a[6]}" target="_blank">${a[6]}</a>`);
-    fooBar('p', `# rubyonrails:`);
+    fooBar('p', `# RubyOnRails:`);
     fooBar('p', `Source: <a href="${a[7]}" target="_blank">${a[7]}</a>`);
   }
 }
