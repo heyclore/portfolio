@@ -46,7 +46,7 @@ function portfolio(){
     'https://github.com/heyclore/htdocs/tree/master/laravel',
     'https://heyclore-expressjs.herokuapp.com',
     'https://github.com/heyclore/htdocs/tree/master/expressjs',
-    'https://github.com/heyclore/htdocs/tree/master/codeigniter',
+    'https://github.com/heyclore/htdocs/tree/master/rubyonrails',
   ]
   if (document.querySelector('section > p').innerHTML == a){
     return;
@@ -62,7 +62,7 @@ function portfolio(){
     fooBar('p', `# ExpressJs:`);
     fooBar('p', `Web: <a href="${a[5]}" target="_blank">${a[5]}</a>`);
     fooBar('p', `Source: <a href="${a[6]}" target="_blank">${a[6]}</a>`);
-    fooBar('p', `# CodeIgniter:`);
+    fooBar('p', `# rubyonrails:`);
     fooBar('p', `Source: <a href="${a[7]}" target="_blank">${a[7]}</a>`);
   }
 }
