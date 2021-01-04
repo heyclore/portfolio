@@ -30,7 +30,7 @@ function home(){
     fooBar('p', a);
     fooBar('img', 'source/pict.jpg');
     fooBar('p', 'Name: Eko Purnomo');
-    fooBar('p', 'Skills: NodeJs, PHP, Python, Sql, Photoshop, Linux');
+    fooBar('p', 'Skills: NodeJs, PHP, Python, Ruby, Sql, Photoshop, Linux');
     fooBar('p', 'Programming Experience: 0 Year');
     fooBar('p', 'Email: cloore@gmail.com');
     fooBar('p', `Link: <a href="${b}" target="_blank">${b}</a>`);
@@ -64,6 +64,8 @@ function portfolio(){
     fooBar('p', `Source: <a href="${a[6]}" target="_blank">${a[6]}</a>`);
     fooBar('p', `# RubyOnRails:`);
     fooBar('p', `Source: <a href="${a[7]}" target="_blank">${a[7]}</a>`);
+    fooBar('h3', `### README ###`);
+    fooBar('p', `all web framework use the same base template (frontend)`);
   }
 }
 
